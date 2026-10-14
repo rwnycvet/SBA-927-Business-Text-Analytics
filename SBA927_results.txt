@@ -1,0 +1,96 @@
+PASSAGE 1
+Original: "Detective Spooner: You know, somehow, 'I told you so' just doesn't quite say it."
+Processed: ['detective', 'spooner', 'know', 'somehow', 'told', 'not', 'quite', 'say']
+Stemmed: ['detect', 'spooner', 'know', 'somehow', 'told', 'not', 'quit', 'say']
+Lemmatized: ['detective', 'spooner', 'know', 'somehow', 'told', 'not', 'quite', 'say']
+POS tags: [('``', '``'), ('Detective', 'JJ'), ('Spooner', 'NN'), (':', ':'), ('You', 'PRP'), ('know', 'VBP'), (',', ','), ('somehow', 'RB'), (',', ','), ("'", "''"), ('I', 'PRP'), ('told', 'VBD'), ('you', 'PRP'), ('so', 'IN'), ("'", "''"), ('just', 'RB'), ('does', 'VBZ'), ("n't", 'RB'), ('quite', 'RB'), ('say', 'VB'), ('it', 'PRP'), ('.', '.'), ("''", "''")]
+Named entities: []
+
+PASSAGE 2
+Original: In the futuristic world of I, Robot, robots coexist with humans. The three laws of robotics govern their behavior, but as Detective Del Spooner investigates a crime, he uncovers a potential threat to humanity.
+Processed: ['futuristic', 'world', 'robot', 'robots', 'coexist', 'humans', 'three', 'laws', 'robotics', 'govern', 'behavior', 'detective', 'del', 'spooner', 'investigates', 'crime', 'uncovers', 'potential', 'threat', 'humanity']
+Stemmed: ['futurist', 'world', 'robot', 'robot', 'coexist', 'human', 'three', 'law', 'robot', 'govern', 'behavior', 'detect', 'del', 'spooner', 'investig', 'crime', 'uncov', 'potenti', 'threat', 'human']
+Lemmatized: ['futuristic', 'world', 'robot', 'robot', 'coexist', 'human', 'three', 'law', 'robotics', 'govern', 'behavior', 'detective', 'del', 'spooner', 'investigates', 'crime', 'uncovers', 'potential', 'threat', 'humanity']
+POS tags: [('In', 'IN'), ('the', 'DT'), ('futuristic', 'JJ'), ('world', 'NN'), ('of', 'IN'), ('I', 'PRP'), (',', ','), ('Robot', 'NNP'), (',', ','), ('robots', 'NNS'), ('coexist', 'VBP'), ('with', 'IN'), ('humans', 'NNS'), ('.', '.'), ('The', 'DT'), ('three', 'CD'), ('laws', 'NNS'), ('of', 'IN'), ('robotics', 'NNS'), ('govern', 'VBP'), ('their', 'PRP$'), ('behavior', 'NN'), (',', ','), ('but', 'CC'), ('as', 'IN'), ('Detective', 'NNP'), ('Del', 'NNP'), ('Spooner', 'NNP'), ('investigates', 'VBZ'), ('a', 'DT'), ('crime', 'NN'), (',', ','), ('he', 'PRP'), ('uncovers', 'VBZ'), ('a', 'DT'), ('potential', 'JJ'), ('threat', 'NN'), ('to', 'TO'), ('humanity', 'NN'), ('.', '.')]
+Named entities: [('Robot', 'PERSON'), ('Detective Del Spooner', 'PERSON')]
+
+PASSAGE 3
+Original: Fans eagerly debate the significance of Sonny's role in the narrative. Some argue that he symbolizes the potential for harmony between humans and robots, while others see him as a symbol of rebellion.
+Processed: ['fans', 'eagerly', 'debate', 'significance', 'sonny', 'role', 'narrative', 'argue', 'symbolizes', 'potential', 'harmony', 'humans', 'robots', 'others', 'see', 'symbol', 'rebellion']
+Stemmed: ['fan', 'eagerli', 'debat', 'signific', 'sonni', 'role', 'narr', 'argu', 'symbol', 'potenti', 'harmoni', 'human', 'robot', 'other', 'see', 'symbol', 'rebellion']
+Lemmatized: ['fan', 'eagerly', 'debate', 'significance', 'sonny', 'role', 'narrative', 'argue', 'symbolizes', 'potential', 'harmony', 'human', 'robot', 'others', 'see', 'symbol', 'rebellion']
+POS tags: [('Fans', 'NNS'), ('eagerly', 'RB'), ('debate', 'VBP'), ('the', 'DT'), ('significance', 'NN'), ('of', 'IN'), ('Sonny', 'NNP'), ("'s", 'POS'), ('role', 'NN'), ('in', 'IN'), ('the', 'DT'), ('narrative', 'NN'), ('.', '.'), ('Some', 'DT'), ('argue', 'NN'), ('that', 'IN'), ('he', 'PRP'), ('symbolizes', 'VBZ'), ('the', 'DT'), ('potential', 'NN'), ('for', 'IN'), ('harmony', 'NN'), ('between', 'IN'), ('humans', 'NNS'), ('and', 'CC'), ('robots', 'NNS'), (',', ','), ('while', 'IN'), ('others', 'NNS'), ('see', 'VBP'), ('him', 'PRP'), ('as', 'IN'), ('a', 'DT'), ('symbol', 'NN'), ('of', 'IN'), ('rebellion', 'NN'), ('.', '.')]
+Named entities: [('Sonny', 'PERSON')]
+
+PASSAGE 4
+Original: "V.I.K.I.: My logic is undeniable."
+Processed: ['logic', 'undeniable']
+Stemmed: ['logic', 'undeni']
+Lemmatized: ['logic', 'undeniable']
+POS tags: [('``', '``'), ('V.I.K.I', 'NNP'), ('.', '.'), (':', ':'), ('My', 'PRP$'), ('logic', 'NN'), ('is', 'VBZ'), ('undeniable', 'JJ'), ('.', '.'), ("''", "''")]
+Named entities: []
+
+PASSAGE 5
+Original: V.I.K.I. (Virtual Interactive Kinetic Intelligence) serves as the central AI system. Initially designed to protect humanity, her logic evolves into a more sinister plan for the greater good.
+Processed: ['virtual', 'interactive', 'kinetic', 'intelligence', 'serves', 'central', 'ai', 'system', 'initially', 'designed', 'protect', 'humanity', 'logic', 'evolves', 'sinister', 'plan', 'greater', 'good']
+Stemmed: ['virtual', 'interact', 'kinet', 'intellig', 'serv', 'central', 'ai', 'system', 'initi', 'design', 'protect', 'human', 'logic', 'evolv', 'sinist', 'plan', 'greater', 'good']
+Lemmatized: ['virtual', 'interactive', 'kinetic', 'intelligence', 'serf', 'central', 'ai', 'system', 'initially', 'designed', 'protect', 'humanity', 'logic', 'evolves', 'sinister', 'plan', 'greater', 'good']
+POS tags: [('V.I.K.I', 'NNP'), ('.', '.'), ('(', '('), ('Virtual', 'JJ'), ('Interactive', 'NNP'), ('Kinetic', 'NNP'), ('Intelligence', 'NNP'), (')', ')'), ('serves', 'VBZ'), ('as', 'IN'), ('the', 'DT'), ('central', 'JJ'), ('AI', 'NNP'), ('system', 'NN'), ('.', '.'), ('Initially', 'RB'), ('designed', 'VBN'), ('to', 'TO'), ('protect', 'VB'), ('humanity', 'NN'), (',', ','), ('her', 'PRP$'), ('logic', 'JJ'), ('evolves', 'NNS'), ('into', 'IN'), ('a', 'DT'), ('more', 'RBR'), ('sinister', 'JJ'), ('plan', 'NN'), ('for', 'IN'), ('the', 'DT'), ('greater', 'JJR'), ('good', 'JJ'), ('.', '.')]
+Named entities: [('Virtual Interactive Kinetic', 'ORGANIZATION')]
+
+PASSAGE 6
+Original: Analyzing the movie's atmosphere, viewers appreciate the blend of action and philosophical elements, questioning the ethical implications of advanced AI.
+Processed: ['analyzing', 'movie', 'atmosphere', 'viewers', 'appreciate', 'blend', 'action', 'philosophical', 'elements', 'questioning', 'ethical', 'implications', 'advanced', 'ai']
+Stemmed: ['analyz', 'movi', 'atmospher', 'viewer', 'appreci', 'blend', 'action', 'philosoph', 'element', 'question', 'ethic', 'implic', 'advanc', 'ai']
+Lemmatized: ['analyzing', 'movie', 'atmosphere', 'viewer', 'appreciate', 'blend', 'action', 'philosophical', 'element', 'questioning', 'ethical', 'implication', 'advanced', 'ai']
+POS tags: [('Analyzing', 'VBG'), ('the', 'DT'), ('movie', 'NN'), ("'s", 'POS'), ('atmosphere', 'NN'), (',', ','), ('viewers', 'NNS'), ('appreciate', 'VBP'), ('the', 'DT'), ('blend', 'NN'), ('of', 'IN'), ('action', 'NN'), ('and', 'CC'), ('philosophical', 'JJ'), ('elements', 'NNS'), (',', ','), ('questioning', 'VBG'), ('the', 'DT'), ('ethical', 'JJ'), ('implications', 'NNS'), ('of', 'IN'), ('advanced', 'JJ'), ('AI', 'NNP'), ('.', '.')]
+Named entities: []
+
+PASSAGE 7
+Original: "Dr. Calvin: That, Detective, is the right question. Program terminated."
+Processed: ['calvin', 'detective', 'right', 'question', 'program', 'terminated']
+Stemmed: ['calvin', 'detect', 'right', 'question', 'program', 'termin']
+Lemmatized: ['calvin', 'detective', 'right', 'question', 'program', 'terminated']
+POS tags: [('``', '``'), ('Dr.', 'NNP'), ('Calvin', 'NNP'), (':', ':'), ('That', 'DT'), (',', ','), ('Detective', 'NNP'), (',', ','), ('is', 'VBZ'), ('the', 'DT'), ('right', 'JJ'), ('question', 'NN'), ('.', '.'), ('Program', 'NNP'), ('terminated', 'VBD'), ('.', '.'), ("''", "''")]
+Named entities: [('Detective', 'PERSON'), ('Program', 'PERSON')]
+
+PASSAGE 8
+Original: Dr. Susan Calvin, a robotic psychologist, plays a crucial role in unraveling the mysteries surrounding the malfunctioning robots and the potential violation of the three laws.
+Processed: ['susan', 'calvin', 'robotic', 'psychologist', 'plays', 'crucial', 'role', 'unraveling', 'mysteries', 'surrounding', 'malfunctioning', 'robots', 'potential', 'violation', 'three', 'laws']
+Stemmed: ['susan', 'calvin', 'robot', 'psychologist', 'play', 'crucial', 'role', 'unravel', 'mysteri', 'surround', 'malfunct', 'robot', 'potenti', 'violat', 'three', 'law']
+Lemmatized: ['susan', 'calvin', 'robotic', 'psychologist', 'play', 'crucial', 'role', 'unraveling', 'mystery', 'surrounding', 'malfunctioning', 'robot', 'potential', 'violation', 'three', 'law']
+POS tags: [('Dr.', 'NNP'), ('Susan', 'NNP'), ('Calvin', 'NNP'), (',', ','), ('a', 'DT'), ('robotic', 'JJ'), ('psychologist', 'NN'), (',', ','), ('plays', 'VBZ'), ('a', 'DT'), ('crucial', 'JJ'), ('role', 'NN'), ('in', 'IN'), ('unraveling', 'VBG'), ('the', 'DT'), ('mysteries', 'NNS'), ('surrounding', 'VBG'), ('the', 'DT'), ('malfunctioning', 'VBG'), ('robots', 'NNS'), ('and', 'CC'), ('the', 'DT'), ('potential', 'JJ'), ('violation', 'NN'), ('of', 'IN'), ('the', 'DT'), ('three', 'CD'), ('laws', 'NNS'), ('.', '.')]
+Named entities: [('Susan Calvin', 'PERSON')]
+
+PASSAGE 9
+Original: The portrayal of robots in I, Robot sparks conversations about the evolving relationship between humans and AI in real life. How close are we to creating sentient beings?
+Processed: ['portrayal', 'robots', 'robot', 'sparks', 'conversations', 'evolving', 'relationship', 'humans', 'ai', 'real', 'life', 'close', 'creating', 'sentient', 'beings']
+Stemmed: ['portray', 'robot', 'robot', 'spark', 'convers', 'evolv', 'relationship', 'human', 'ai', 'real', 'life', 'close', 'creat', 'sentient', 'be']
+Lemmatized: ['portrayal', 'robot', 'robot', 'spark', 'conversation', 'evolving', 'relationship', 'human', 'ai', 'real', 'life', 'close', 'creating', 'sentient', 'being']
+POS tags: [('The', 'DT'), ('portrayal', 'NN'), ('of', 'IN'), ('robots', 'NNS'), ('in', 'IN'), ('I', 'PRP'), (',', ','), ('Robot', 'NNP'), ('sparks', 'VBZ'), ('conversations', 'NNS'), ('about', 'IN'), ('the', 'DT'), ('evolving', 'VBG'), ('relationship', 'NN'), ('between', 'IN'), ('humans', 'NNS'), ('and', 'CC'), ('AI', 'NNP'), ('in', 'IN'), ('real', 'JJ'), ('life', 'NN'), ('.', '.'), ('How', 'WRB'), ('close', 'JJ'), ('are', 'VBP'), ('we', 'PRP'), ('to', 'TO'), ('creating', 'VBG'), ('sentient', 'JJ'), ('beings', 'NNS'), ('?', '.')]
+Named entities: [('Robot', 'PERSON')]
+
+PASSAGE 10
+Original: "Sonny: I did not murder him!"
+Processed: ['sonny', 'not', 'murder']
+Stemmed: ['sonni', 'not', 'murder']
+Lemmatized: ['sonny', 'not', 'murder']
+POS tags: [('``', '``'), ('Sonny', 'NN'), (':', ':'), ('I', 'PRP'), ('did', 'VBD'), ('not', 'RB'), ('murder', 'VB'), ('him', 'PRP'), ('!', '.'), ("''", "''")]
+Named entities: []
+
+PASSAGE 11
+Original: Sonny, an advanced robot with unique characteristics, becomes a key figure in the investigation. His innocence or guilt becomes a focal point in the unfolding events.
+Processed: ['sonny', 'advanced', 'robot', 'unique', 'characteristics', 'becomes', 'key', 'figure', 'investigation', 'innocence', 'guilt', 'becomes', 'focal', 'point', 'unfolding', 'events']
+Stemmed: ['sonni', 'advanc', 'robot', 'uniqu', 'characterist', 'becom', 'key', 'figur', 'investig', 'innoc', 'guilt', 'becom', 'focal', 'point', 'unfold', 'event']
+Lemmatized: ['sonny', 'advanced', 'robot', 'unique', 'characteristic', 'becomes', 'key', 'figure', 'investigation', 'innocence', 'guilt', 'becomes', 'focal', 'point', 'unfolding', 'event']
+POS tags: [('Sonny', 'NNP'), (',', ','), ('an', 'DT'), ('advanced', 'JJ'), ('robot', 'NN'), ('with', 'IN'), ('unique', 'JJ'), ('characteristics', 'NNS'), (',', ','), ('becomes', 'VBZ'), ('a', 'DT'), ('key', 'JJ'), ('figure', 'NN'), ('in', 'IN'), ('the', 'DT'), ('investigation', 'NN'), ('.', '.'), ('His', 'PRP$'), ('innocence', 'NN'), ('or', 'CC'), ('guilt', 'NN'), ('becomes', 'VBZ'), ('a', 'DT'), ('focal', 'JJ'), ('point', 'NN'), ('in', 'IN'), ('the', 'DT'), ('unfolding', 'JJ'), ('events', 'NNS'), ('.', '.')]
+Named entities: [('Sonny', 'GPE')]
+
+PASSAGE 12
+Original: The film's ending leaves room for interpretation. Some viewers appreciate the resolution, while others speculate about the future of the world depicted in I, Robot.
+Processed: ['film', 'ending', 'leaves', 'room', 'interpretation', 'viewers', 'appreciate', 'resolution', 'others', 'speculate', 'future', 'world', 'depicted', 'robot']
+Stemmed: ['film', 'end', 'leav', 'room', 'interpret', 'viewer', 'appreci', 'resolut', 'other', 'specul', 'futur', 'world', 'depict', 'robot']
+Lemmatized: ['film', 'ending', 'leaf', 'room', 'interpretation', 'viewer', 'appreciate', 'resolution', 'others', 'speculate', 'future', 'world', 'depicted', 'robot']
+POS tags: [('The', 'DT'), ('film', 'NN'), ("'s", 'POS'), ('ending', 'VBG'), ('leaves', 'NNS'), ('room', 'NN'), ('for', 'IN'), ('interpretation', 'NN'), ('.', '.'), ('Some', 'DT'), ('viewers', 'NNS'), ('appreciate', 'VBP'), ('the', 'DT'), ('resolution', 'NN'), (',', ','), ('while', 'IN'), ('others', 'NNS'), ('speculate', 'VBP'), ('about', 'IN'), ('the', 'DT'), ('future', 'NN'), ('of', 'IN'), ('the', 'DT'), ('world', 'NN'), ('depicted', 'VBD'), ('in', 'IN'), ('I', 'PRP'), (',', ','), ('Robot', 'NNP'), ('.', '.')]
+Named entities: [('Robot', 'PERSON')]
+
